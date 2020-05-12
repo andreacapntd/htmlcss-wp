@@ -93,6 +93,16 @@ nav {
   /* height: 350px; */
 }
 
+aside ul li {
+  display: block;
+
+}
+
+.list-green {
+  color: green;
+  text-decoration: none;
+}
+
 .rss-feed {
   width: 30px;
   height: 30px;
