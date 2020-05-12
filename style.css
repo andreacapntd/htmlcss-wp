@@ -1,0 +1,191 @@
+/* general rules */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+body {
+  background-image: url(img/default-pattern.png);
+}
+
+/* Header */
+
+header {
+  height: 300px;
+  margin: 15px 0;
+  background-color: white;
+  position: relative;
+
+
+
+  /* debug */
+  /* background-color: yellow; */
+}
+
+
+
+
+.background-img {
+  height: 300px;
+  width: 100%;
+  padding: 5px;
+}
+
+h1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50% ,-50%);
+  font-size: 50px;
+  color: white;
+
+
+}
+
+.subtitle {
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  transform: translate(-50% , -50%);
+  color: white;
+
+}
+
+nav {
+  background-color: gray;
+  text-align: center;
+  color: white;
+  /* margin: 0 auto; */
+}
+
+.navlist {
+  display: inline-block;
+}
+
+
+
+/* Container */
+
+
+.column-container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Left column */
+
+.left-column {
+  float: left;
+  width: 20%;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
+  /* margin-left: 1%; */
+  /* debug */
+  /* height: 350px; */
+}
+
+.rss-feed {
+  width: 30px;
+  height: 30px;
+  padding: 1px 0 0 5px;
+
+  /* display: inline-block; */
+}
+
+#organic{
+  /* text-align: center; */
+  display: inline;
+}
+
+#themes {
+  text-align: center;
+
+}
+
+
+/* Middle column  */
+
+.middle-column {
+  float: left;
+  width: 58%;
+  margin: 20px 1%;
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
+  /* debug */
+  /* height: 500px; */
+}
+
+.middle-column h3{
+  padding: 10px 0 25px 10px;
+  color: brown;
+  text-align: center;
+
+}
+
+.middle-column p {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0 15px 15px;
+}
+
+
+/* Right column */
+
+.right-column {
+  float: left;
+  width: 20%;
+  /* debug */
+  /* height: 200px; */
+  /* background-color: pink; */
+}
+
+.right-column section {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 18px;
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
+
+  /* Debug */
+  /* height: 200px; */
+}
+
+section h3 {
+  padding: 15px 15px 35px 15px;
+  color: brown;
+  text-align: center;
+}
+
+section p {
+  padding: 0 15px 15px 15px;
+  font-weight: bold;
+}
+
+/* Footer */
+
+footer {
+  height: 100px;
+  margin-bottom: 15px;
+  background-color:white;
+  border-radius: 10px 10px 10px 10px;
+  text-align: center;
+}
+
+.final-title {
+  color: gray;
+  border-bottom: 1px solid gray;
+}
+
+#facebook, #instagram, #github{
+  width:80px;
+  height: 30px;
+}
