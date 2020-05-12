@@ -22,15 +22,7 @@ header {
   margin: 15px 0;
   background-color: white;
   position: relative;
-
-
-
-  /* debug */
-  /* background-color: yellow; */
 }
-
-
-
 
 .background-img {
   height: 300px;
@@ -76,6 +68,9 @@ nav ul li {
   text-decoration: none;
 }
 
+.navlist:hover {
+  background-color: lightgray;
+}
 
 
 /* Container */
@@ -95,17 +90,14 @@ nav ul li {
   margin-top: 20px;
   background-color: white;
   border-radius: 10px 10px 10px 10px;
-  /* margin-left: 1%; */
-  /* debug */
-  /* height: 350px; */
 }
 
 aside ul li {
   display: block;
   padding: 10px;
-
-
 }
+
+
 
 .list-green {
   color: green;
@@ -117,19 +109,16 @@ aside ul li {
   width: 30px;
   height: 30px;
   padding: 1px 0 0 5px;
-
-  /* display: inline-block; */
 }
+
+
 
 #organic{
-  /* text-align: center; */
-  display: inline;
-}
-
-#themes {
-  text-align: center;
+  display: inline-block;
 
 }
+
+
 
 
 /* Middle column  */
@@ -140,8 +129,6 @@ aside ul li {
   margin: 20px 1%;
   background-color: white;
   border-radius: 10px 10px 10px 10px;
-  /* debug */
-  /* height: 500px; */
 }
 
 .middle-column h3{
@@ -163,9 +150,6 @@ aside ul li {
 .right-column {
   float: left;
   width: 20%;
-  /* debug */
-  /* height: 200px; */
-  /* background-color: pink; */
 }
 
 .right-column section {
@@ -174,9 +158,6 @@ aside ul li {
   margin-bottom: 18px;
   background-color: white;
   border-radius: 10px 10px 10px 10px;
-
-  /* Debug */
-  /* height: 200px; */
 }
 
 section h3 {
@@ -208,13 +189,11 @@ footer {
 .logo-footer {
   display: inline-block;
   margin-top: 20px;
-
-
 }
+
+
 
 #facebook, #instagram, #github {
   width: 33%;
   height: 40px;
-  
-
 }
