@@ -61,12 +61,19 @@ h1 {
 nav {
   background-color: gray;
   text-align: center;
-  color: white;
-  /* margin: 0 auto; */
+
 }
 
-.navlist {
+nav ul li {
   display: inline-block;
+  padding: 0 20px;
+
+}
+
+
+.navlist {
+  color: white;
+  text-decoration: none;
 }
 
 
@@ -95,6 +102,8 @@ nav {
 
 aside ul li {
   display: block;
+  padding: 10px;
+
 
 }
 
@@ -102,6 +111,7 @@ aside ul li {
   color: green;
   text-decoration: none;
 }
+
 
 .rss-feed {
   width: 30px;
